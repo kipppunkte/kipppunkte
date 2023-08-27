@@ -1,4 +1,4 @@
 python3.9  -m venv venv
-pip install mkdocs-material
+python -m pip install mkdocs-material
 
-mkdocs new .
+# mkdocs new .
