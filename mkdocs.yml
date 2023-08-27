@@ -2,5 +2,3 @@ site_name: Kipppunkte
 
 docs_dir: docs
 
-theme:
-  name: material
