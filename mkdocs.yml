@@ -1,4 +1,90 @@
-site_name: Kipppunkte
+site_name: KippPunkte
 
 docs_dir: docs
 
+
+
+copyright: Copyright &copy; 2023 Angela Beyerlein
+
+extra:
+  generator: false
+
+extra_css:
+  - overrides/custom.css
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: de
+  logo: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
+  favicon: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+  font:
+    text: Roboto
+  features:
+    # - toc.integrate # Show navigation on the left
+    
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.follow
+    - toc.integrate
+
+    # - navigation.indexes
+    # - navigation.top
+    # - search.suggest
+    # - search.highlight
+    # - content.tabs.link
+    # - content.code.copy
+    # - header.autohide
+    # # - navigation.instant # Breaks https://github.com/JakubAndrysek/mkdocs-open-in-new-tab/issues/2
+    # - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections
+    # - navigation.expand # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
+    # - navigation.path
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: On this page
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+plugins:
+  - glightbox
+  - open-in-new-tab
+  - site-urls:
+      attributes:
+        - href
+        - src
+        - data
+        - data-url
+
+nav:
+  - Welcome: index.md
+  - Station 1: station_01.md
+  - Station 21: station_21.md
+  - Station 35: station_35.md
