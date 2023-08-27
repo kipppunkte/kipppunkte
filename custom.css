@@ -35,3 +35,7 @@
 .md-main__inner {
   margin-top: 0.2rem;
 }
+
+audio {
+  width: 100%;
+}
