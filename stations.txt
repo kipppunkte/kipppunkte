@@ -1,0 +1,42 @@
+1a	Start
+1b	Mittagessen
+2	Tischlerei
+3	Schmuckatelier
+4	Wilde Insel
+5	Ruine
+6a	Renovierung
+6b	Bauprojekt
+7	Turmhaus
+8	Traumhaus?
+9	KippPunkt
+10	Toilette
+11	Bücherzelle
+12	Glan
+13a	Bundesstraße
+13b	Autos
+14	Bauernhof
+15	Der schmale Pfad
+16	Flaschenpost
+17	Kunst im Garten
+18	Mini-Gärten
+19	Gemüseanbau
+20	Kunst im Hotel
+21	Schneiderei
+22	Bilderrahmen
+23	Hotel
+24	Stadtimkerei
+25	Bierbrauerei
+26	Gasthof
+27	Ökohof
+28	Dein Haus
+29	Snack-Automat
+30	Smartfood
+31	Teppichwerkstatt
+32	Lieferung
+33	Fahrrad-Einkaufswagen
+34	Fleischhauerei
+35	Kaffee
+36	Schuhservice
+37	Handydoktor
+38	Bäckerei
+39	Gamers Finest

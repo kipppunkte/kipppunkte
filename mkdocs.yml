@@ -42,8 +42,8 @@ theme:
     - navigation.footer
     - navigation.top
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - toc.follow
     - toc.integrate
 
@@ -85,26 +85,48 @@ plugins:
 
 nav:
   - Welcome: index.md
-  - Station 1: station_01.md
-  - Station 21: station_21.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
-  - Station 35: station_35.md
+  # - Station 1: station_01.md
+  # - Station 21: station_21.md
+  # - Station 35: station_35.md
+  - "Station 1a: Start": 1a.md
+  - "Station 1b: Mittagessen": 1b.md
+  - "Station 2: Tischlerei": 2.md
+  - "Station 3: Schmuckatelier": 3.md
+  - "Station 4: Wilde Insel": 4.md
+  - "Station 5: Ruine": 5.md
+  - "Station 6a: Renovierung": 6a.md
+  - "Station 6b: Bauprojekt": 6b.md
+  - "Station 7: Turmhaus": 7.md
+  - "Station 8: Traumhaus?": 8.md
+  - "Station 9: KippPunkt": 9.md
+  - "Station 10: Toilette": 10.md
+  - "Station 11: Bücherzelle": 11.md
+  - "Station 12: Glan": 12.md
+  - "Station 13a: Bundesstraße": 13a.md
+  - "Station 13b: Autos": 13b.md
+  - "Station 14: Bauernhof": 14.md
+  - "Station 15: Der schmale Pfad": 15.md
+  - "Station 16: Flaschenpost": 16.md
+  - "Station 17: Kunst im Garten": 17.md
+  - "Station 18: Mini-Gärten": 18.md
+  - "Station 19: Gemüseanbau": 19.md
+  - "Station 20: Kunst im Hotel": 20.md
+  - "Station 21: Schneiderei": 21.md
+  - "Station 22: Bilderrahmen": 22.md
+  - "Station 23: Hotel": 23.md
+  - "Station 24: Stadtimkerei": 24.md
+  - "Station 25: Bierbrauerei": 25.md
+  - "Station 26: Gasthof": 26.md
+  - "Station 27: Ökohof": 27.md
+  - "Station 28: Dein Haus": 28.md
+  - "Station 29: Snack-Automat": 29.md
+  - "Station 30: Smartfood": 30.md
+  - "Station 31: Teppichwerkstatt": 31.md
+  - "Station 32: Lieferung": 32.md
+  - "Station 33: Fahrrad-Einkaufswagen": 33.md
+  - "Station 34: Fleischhauerei": 34.md
+  - "Station 35: Kaffee": 35.md
+  - "Station 36: Schuhservice": 36.md
+  - "Station 37: Handydoktor": 37.md
+  - "Station 38: Bäckerei": 38.md
+  - "Station 39: Gamers Finest": 39.md
