@@ -1,0 +1,23 @@
+a.md-header__button {
+    background-color: white;
+  }
+  
+  .md-grid {
+    max-width: unset;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .md-header .md-search .md-search__inner {
+    min-width: 300px;
+  }
+  
+  .md-header .md-header__source {
+    min-width: 200px;
+  }
+  
+  .md-sidebar {
+    width: unset;
+    max-width: 25%;
+  }
+  
