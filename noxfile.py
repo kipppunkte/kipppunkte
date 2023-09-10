@@ -105,6 +105,29 @@ Audio:
 </audio>
 '''
 
+TPL_BOTH = r'''
+# Station #s_id#: #s_name#
+
+Audio: 
+
+<audio controls>
+  <source src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/#mp3_url#" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+===+ "Auftrag"
+
+    ![Image title](assets/#image_url_a#){: style="max-height:60vh" }
+
+
+=== "Ergebnis"
+
+    ![Image title](assets/#image_url_b#){: style="max-height:60vh" }
+'''
+
+
+
+
 def create_gmaps_link(lon, lat):
     return rf"https://www.google.com/maps/dir/?api=1&travelmode=walking&destination={lon},{lat}"
 
@@ -143,6 +166,7 @@ def urls(session):
 
         s_both = s_pics != s_audio
         logging.info(s_both)
+
         # assert s_pics != s_audio
 
         fname = DOCS_PATH / f"{s_id}.md"
@@ -155,15 +179,21 @@ def urls(session):
         n_expected = 2 if s_pics else 1
         if not is_game:
             n_expected = 1
+
+        tpl_txt = None
         if s_pics:
             f_names = sorted(
                 DATA_PATH.glob(f"{s_id}_*.png")
             )
             png0 = None
             png1 = None
-            text = TPL_PICS.replace("#s_id#", s_id).replace("#s_name#", s_name)
+            tpl_txt = TPL_PICS
+            if s_pics and s_audio:
+                tpl_txt = TPL_BOTH
             if not is_game:
-                text = TPL_PICS_NOGAME.replace("#s_id#", s_id).replace("#s_name#", s_name)
+                tpl_txt = TPL_PICS_NOGAME
+
+            text = tpl_txt.replace("#s_id#", s_id).replace("#s_name#", s_name)
 
             if len(f_names) == 2:
                 png0 = ASSETS_PATH / f_names[0].name
@@ -181,8 +211,11 @@ def urls(session):
                     logging.warn("Found 1 file out of {n_expected}.")
             else:
                 logging.error("Found no file.")
-        elif s_audio:
-            text = TPL_AUDIO.replace("#s_id#", s_id).replace("#s_name#", s_name)
+
+        if s_audio:
+            if tpl_txt is None:
+                text = TPL_AUDIO.replace("#s_id#", s_id).replace("#s_name#", s_name)
+                
             f_names = sorted(
                 DATA_PATH.glob(f"{s_id}_*.mp3")
             )
