@@ -232,7 +232,7 @@ def urls(session):
             gmap_url = create_gmaps_link(*s_coords[s_id])
             text += "\n\n"
             text += f"[Directions]({gmap_url})"
-            link = f'''<a href="{gmap_url}"><img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/google-maps.svg" width="48" height="48"></a>'''
+            link = f'''<a href="{gmap_url}"><img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/google-maps.svg" width="24" height="24"></a>'''
             text = text.replace("#s_link#", link)
 
         else:
