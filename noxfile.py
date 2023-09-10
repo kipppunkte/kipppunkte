@@ -87,7 +87,7 @@ TPL_AUDIO = r'''
 Audio: 
 
 <audio controls>
-  <source src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/ytmp3free.cc_keke-ladies-prod-fvlcrvm-youtubemp3free.org.mp3" type="audio/mpeg">
+  <source src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/#mp3_url#" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
 '''
@@ -169,6 +169,13 @@ def urls(session):
             f_names = sorted(
                 DATA_PATH.glob(f"{s_id}_*.mp3")
             )
+            if len(f_names) == 1:
+                mp3 = ASSETS_PATH / f_names[0].name
+                shutil.copy2(f_names[0], mp3)          
+                text = text.replace("#mp3_url#", mp3.name)
+                logging.warn("Found just 1 file.")
+            else:
+                logging.error("Found no file.")
 
         fname.write_text(text)
         toc.append(
