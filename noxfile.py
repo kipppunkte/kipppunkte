@@ -73,7 +73,7 @@ SITE = 'https://kipppunkte.github.io/kipppunkte'
 
 
 TPL_PICS = r'''
-# Station #s_id#: #s_name#
+# Station #s_id#: #s_name# #s_link#
 
 
 ===+ "Auftrag"
@@ -88,14 +88,14 @@ TPL_PICS = r'''
 
 
 TPL_PICS_NOGAME = r'''
-# Station #s_id#: #s_name#
+# Station #s_id#: #s_name# #s_link#
 
 ![Image title](assets/#image_url_a#){: style="max-height:60vh" }
 '''
 
 
 TPL_AUDIO = r'''
-# Station #s_id#: #s_name#
+# Station #s_id#: #s_name# #s_link#
 
 Audio: 
 
@@ -106,7 +106,7 @@ Audio:
 '''
 
 TPL_BOTH = r'''
-# Station #s_id#: #s_name#
+# Station #s_id#: #s_name# #s_link#
 
 Audio: 
 
@@ -215,7 +215,7 @@ def urls(session):
         if s_audio:
             if tpl_txt is None:
                 text = TPL_AUDIO.replace("#s_id#", s_id).replace("#s_name#", s_name)
-                
+
             f_names = sorted(
                 DATA_PATH.glob(f"{s_id}_*.mp3")
             )
@@ -232,8 +232,12 @@ def urls(session):
             gmap_url = create_gmaps_link(*s_coords[s_id])
             text += "\n\n"
             text += f"[Directions]({gmap_url})"
+            link = f'''<a href="{gmap_url}"><img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/google-maps.svg" width="48" height="48"></a>'''
+            text = text.replace("#s_link#", link)
+
         else:
             logging.error("No directions found")
+            text = text.replace("#s_link#", "")
 
 
         

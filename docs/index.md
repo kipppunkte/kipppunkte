@@ -1,5 +1,7 @@
 # KippPunkte
 
+<a href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=47.8031505,13.0187037"><img src="assets/google-maps.svg" width="48" height="48"></a>
+
 - [Station 1a: Start](1a.md) (nogame) (audio)(n=1/1)
 - [Station 1b: Mittagessen](1b.md) (game) (pic)(n=2/2)
 - [Station 2: Tischlerei](2.md) (nogame) (audio)(n=1/1)
