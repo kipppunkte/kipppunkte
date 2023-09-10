@@ -5,3 +5,4 @@ mkdocs-open-in-new-tab
 mkdocs-site-urls
 mkdocs-glightbox
 bs4
+jupyter

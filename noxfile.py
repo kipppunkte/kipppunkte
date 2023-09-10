@@ -31,6 +31,11 @@ def build(session):
     session.run(str(mkdocs), "build")
 
 
+@nox.session(python=False, venv_backend='none', reuse_venv=True)
+def nb(session):
+    refresh_deps(session)
+    session.run("jupyter", "notebook")
+
 
 @nox.session(python=False, venv_backend='none', reuse_venv=True)
 def deploy(session):
@@ -104,23 +109,18 @@ def create_gmaps_link(lon, lat):
     return rf"https://www.google.com/maps/dir/?api=1&travelmode=walking&destination={lon},{lat}"
 
 
-@nox.session(python=False, venv_backend='none', reuse_venv=True)
-def gmaps(session):
-    # pip install beautifulsoup4
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(Path("Kipppunkte.kml").read_text(), 'lxml')
-    print(soup)
-    stations = Path("stations.csv").read_text().split("\n")
-    stations = [_.split("\t", 4) for _ in stations if _.strip()]
-    for s_id, s_name, s_pics, s_audio in stations:
-        pass
-
 
 @nox.session(python=False, venv_backend='none', reuse_venv=True)
 def urls(session):
     site = 'https://kipppunkte.github.io/kipppunkte'
     stations = Path("stations.csv").read_text().split("\n")
     stations = [_.split("\t", 4) for _ in stations if _.strip()]
+
+    
+    s_coords = Path("stations_coords.csv").read_text().split("\n")
+    s_coords = [_.split("\t", 4) for _ in s_coords if _.strip()]
+    s_coords = {_[0]: _[1:] for _ in s_coords}
+
     res = []
     toc = []
     toc1 = []
@@ -171,12 +171,14 @@ def urls(session):
                 png1 = ASSETS_PATH / f_names[1].name
                 shutil.copy2(f_names[1], png1)            
                 text = text.replace("#image_url_a#", png0.name).replace("#image_url_b#", png1.name)
-                # logging.info("Found 2 files.")
+                if n_expected != 2:
+                    logging.warn("Found 2 files out of {n_expected}.")
             elif len(f_names) == 1:
                 png0 = ASSETS_PATH / f_names[0].name
                 shutil.copy2(f_names[0], png0)          
                 text = text.replace("#image_url_a#", png0.name).replace("#image_url_b#", png0.name)
-                logging.warn("Found just 1 file.")
+                if n_expected != 1:
+                    logging.warn("Found 1 file out of {n_expected}.")
             else:
                 logging.error("Found no file.")
         elif s_audio:
@@ -188,9 +190,21 @@ def urls(session):
                 mp3 = ASSETS_PATH / f_names[0].name
                 shutil.copy2(f_names[0], mp3)          
                 text = text.replace("#mp3_url#", mp3.name)
-                logging.warn("Found just 1 file.")
+                if n_expected != 1:
+                    logging.warn("Found 1 file out of {n_expected}.")
             else:
                 logging.error("Found no file.")
+        
+        if s_id in s_coords:
+            gmap_url = create_gmaps_link(*s_coords[s_id])
+            text += "\n\n"
+            text += f"[Directions]({gmap_url})"
+        else:
+            logging.error("No directions found")
+
+
+        
+
 
         fname.write_text(text)
         toc.append(
