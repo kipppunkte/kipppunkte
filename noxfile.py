@@ -76,10 +76,18 @@ TPL_PICS = r'''
     ![Image title](assets/#image_url_a#){: style="max-height:60vh" }
 
 
-=== "Ergebniss"
+=== "Ergebnis"
 
     ![Image title](assets/#image_url_b#){: style="max-height:60vh" }
 '''
+
+
+TPL_PICS_NOGAME = r'''
+# Station #s_id#: #s_name#
+
+![Image title](assets/#image_url_a#){: style="max-height:60vh" }
+'''
+
 
 TPL_AUDIO = r'''
 # Station #s_id#: #s_name#
@@ -102,7 +110,7 @@ def gmaps(session):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(Path("Kipppunkte.kml").read_text(), 'lxml')
     print(soup)
-    stations = Path("stations.txt").read_text().split("\n")
+    stations = Path("stations.csv").read_text().split("\n")
     stations = [_.split("\t", 4) for _ in stations if _.strip()]
     for s_id, s_name, s_pics, s_audio in stations:
         pass
@@ -111,7 +119,7 @@ def gmaps(session):
 @nox.session(python=False, venv_backend='none', reuse_venv=True)
 def urls(session):
     site = 'https://kipppunkte.github.io/kipppunkte'
-    stations = Path("stations.txt").read_text().split("\n")
+    stations = Path("stations.csv").read_text().split("\n")
     stations = [_.split("\t", 4) for _ in stations if _.strip()]
     res = []
     toc = []
@@ -131,6 +139,7 @@ def urls(session):
     for s_id, s_name, is_game, s_pics, s_audio in stations:
         s_pics = s_pics.lower() == "x"
         s_audio = s_audio.lower() == "x"
+        is_game = is_game.lower() == "x"
 
         s_both = s_pics != s_audio
         logging.info(s_both)
@@ -142,7 +151,10 @@ def urls(session):
         
         logging.info((s_id, s_name, s_pics, s_audio))
         tag = "(pic)" if s_pics else "(audio)"
+        game_tag = "(game)" if is_game else "(nogame)"
         n_expected = 2 if s_pics else 1
+        if not is_game:
+            n_expected = 1
         if s_pics:
             f_names = sorted(
                 DATA_PATH.glob(f"{s_id}_*.png")
@@ -150,6 +162,9 @@ def urls(session):
             png0 = None
             png1 = None
             text = TPL_PICS.replace("#s_id#", s_id).replace("#s_name#", s_name)
+            if not is_game:
+                text = TPL_PICS_NOGAME.replace("#s_id#", s_id).replace("#s_name#", s_name)
+
             if len(f_names) == 2:
                 png0 = ASSETS_PATH / f_names[0].name
                 shutil.copy2(f_names[0], png0)
@@ -182,7 +197,7 @@ def urls(session):
             f'- "Station {s_id}: {s_name}": {fname.name}'
         )
         toc1.append(
-            f'- [Station {s_id}: {s_name}]({fname.name}) {tag}(n={len(f_names)}/{n_expected})'
+            f'- [Station {s_id}: {s_name}]({fname.name}) {game_tag} {tag}(n={len(f_names)}/{n_expected})'
         )
         urls.append(f'{site}/{fname.stem};"Station {s_id}: {s_name}"')
         txt_md.append(f"- [ ]  Station {s_id}: {s_name}")
