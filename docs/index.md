@@ -18,7 +18,7 @@
 - [Station 13b: Autos](13b.md) (game) (pic)(n=2/2)
 - [Station 14: Bauernhof](14.md) (game) (pic)(n=2/2)
 - [Station 15: Der schmale Pfad](15.md) (nogame) (audio)(n=1/1)
-- [Station 16: Flaschenpost](16.md) (nogame) (audio)(n=1/1)
+- [Station 16: Flaschenpost](16.md) (nogame) (pic)(n=1/1)
 - [Station 17: Kunst im Garten](17.md) (nogame) (audio)(n=1/1)
 - [Station 18: Mini-Gärten](18.md) (nogame) (audio)(n=1/1)
 - [Station 19: Gemüseanbau](19.md) (game) (pic)(n=2/2)
