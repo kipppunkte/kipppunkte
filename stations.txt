@@ -1,42 +1,42 @@
-1a	Start
-1b	Mittagessen
-2	Tischlerei
-3	Schmuckatelier
-4	Wilde Insel
-5	Ruine
-6a	Renovierung
-6b	Bauprojekt
-7	Turmhaus
-8	Traumhaus?
-9	KippPunkt
-10	Toilette
-11	Bücherzelle
-12	Glan
-13a	Bundesstraße
-13b	Autos
-14	Bauernhof
-15	Der schmale Pfad
-16	Flaschenpost
-17	Kunst im Garten
-18	Mini-Gärten
-19	Gemüseanbau
-20	Kunst im Hotel
-21	Schneiderei
-22	Bilderrahmen
-23	Hotel
-24	Stadtimkerei
-25	Bierbrauerei
-26	Gasthof
-27	Ökohof
-28	Dein Haus
-29	Snack-Automat
-30	Smartfood
-31	Teppichwerkstatt
-32	Lieferung
-33	Fahrrad-Einkaufswagen
-34	Fleischhauerei
-35	Kaffee
-36	Schuhservice
-37	Handydoktor
-38	Bäckerei
-39	Gamers Finest
+1a	Start			x
+1b	Mittagessen	x	x	
+2	Tischlerei			x
+3	Schmuckatelier	x	x	
+4	Wilde Insel			x
+5	Ruine			x
+6a	Renovierung			x
+6b	Bauprojekt	x	x	
+7	Turmhaus			x
+8	Traumhaus?			x
+9	KippPunkt		X	
+10	Toilette	x	x	
+11	Bücherzelle	x	x	
+12	Glan			x
+13a	Bundesstraße			x
+13b	Autos	x	x	
+14	Bauernhof	x	x	
+15	Der schmale Pfad			x
+16	Flaschenpost		o	
+17	Kunst im Garten			x
+18	Mini-Gärten			x
+19	Gemüseanbau	x	x	
+20	Kunst im Hotel			x
+21	Schneiderei	x	x	
+22	Bilderrahmen		X	
+23	Hotel	x	x	
+24	Stadtimkerei			x
+25	Bierbrauerei	x	x	
+26	Gasthof		X	
+27	Ökohof	x	x	x
+28	Dein Haus			x
+29	Snack-Automat	x	x	
+30	Smartfood	x	x	
+31	Teppichwerkstatt	x	x	
+32	Lieferung	x	x	
+33	Fahrrad-Einkaufswagen		keines	x
+34	Fleischhauerei	x	x	
+35	Kaffee	x	x	
+36	Schuhservice	x	x	
+37	Handydoktor	x	x	
+38	Bäckerei	x	x	x
+39	Gamers Finest			x

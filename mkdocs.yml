@@ -16,22 +16,22 @@ theme:
   name: material
   custom_dir: docs/overrides
   language: de
-  logo: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
-  favicon: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
+  # logo: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
+  # favicon: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
   
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: green
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+      scheme: slate
+      primary: teal
+      # toggle:
+      #   icon: material/brightness-7
+      #   name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
+      # toggle:
+      #   icon: material/lightbulb-outline
+      #   name: Switch to dark mode
   font:
     text: Roboto
   features:
