@@ -41,11 +41,13 @@ audio {
 }
 
 .dice-pic {
-  padding-bottom: 0px!important;
-  padding-top: 0px!important;
+  margin: 0 0!important;
+  padding: 1em 0!important;
+  width: 75%;
 }
 
 .dice-resp {
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  min-width: 20px;
+  max-width: 20px;
 }
