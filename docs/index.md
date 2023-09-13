@@ -1,4 +1,5 @@
-# KippPunkte
+<img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/logo_full.png" style="width: 100%">
+
 
 
 https://www.stadt-salzburg.at/win/out-of-the-box/

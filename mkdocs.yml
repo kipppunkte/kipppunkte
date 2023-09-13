@@ -41,10 +41,11 @@ theme:
   features:
     # - toc.integrate # Show navigation on the left
     
+    - header.autohide
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.footer
-    - navigation.top
+    # - navigation.top
     - navigation.tracking
     # - navigation.tabs
     # - navigation.tabs.sticky
