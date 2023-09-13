@@ -52,12 +52,8 @@ audio {
   max-width: 20px;
 }
 
-.dice-pic > a  {
+.no-click  {
   pointer-events: none;  
   cursor: default; 
  }
 
-.dice-pic > a > img {
-  pointer-events: none;  
-  cursor: default; 
- }
