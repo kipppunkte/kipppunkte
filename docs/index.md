@@ -1,6 +1,13 @@
 # KippPunkte
 
-<a href="https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=47.8031505,13.0187037"><img src="assets/google-maps.svg" width="48" height="48"></a>
+
+https://www.stadt-salzburg.at/win/out-of-the-box/
+
+https://www.stadt-salzburg.at/termine/bildung-wissen-und-innovation/out-of-the-box-2023/out-of-the-box-kipppunkte-oder-das-zeitalter-des-verzichts/
+
+
+
+
 
 - [Station 1a: Start](1a.md) (nogame) (audio)(n=1/1)
 - [Station 1b: Mittagessen](1b.md) (game) (pic)(n=2/2)

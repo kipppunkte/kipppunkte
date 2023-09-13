@@ -42,8 +42,8 @@ audio {
 
 .dice-pic {
   margin: 0 0!important;
-  padding: 1em 0!important;
-  width: 75%;
+  padding: 0.1em 2em!important;
+  /* width: 75%; */
 }
 
 .dice-resp {
