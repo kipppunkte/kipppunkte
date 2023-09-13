@@ -6,3 +6,5 @@ mkdocs-site-urls
 mkdocs-glightbox
 bs4
 jupyter
+pandas
+openpyxl
