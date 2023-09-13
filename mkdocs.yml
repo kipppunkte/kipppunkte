@@ -76,7 +76,7 @@ markdown_extensions:
       alternate_style: true 
 
 plugins:
-  - glightbox
+  # - glightbox
   - open-in-new-tab
   - site-urls:
       attributes:
