@@ -11,7 +11,9 @@ extra:
 
 extra_css:
   - overrides/custom.css
-
+extra_javascript:
+  - overrides/extra.js
+  
 theme:
   name: material
   custom_dir: docs/overrides
