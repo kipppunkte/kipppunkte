@@ -6,6 +6,17 @@
 
 ### *Ein interaktiver Spaziergang*
 
+
+<div style="width:75%;font-size:0.75rem;text-align: right;font-style: italic;margin-left: 20%;">
+Dieses Projekt wurde mit dem diesjährigen <i>„Out of the box"-Preis“</i> der Stadt Salzburg ausgezeichnet. Ich lade Sie herzlich ein, sich <a href="https://www.stadt-salzburg.at/win/out-of-the-box/">die anderen Projekte</a> anzusehen, die diesen Preis erhalten haben. 
+</div>
+
+
+    
+    
+    
+
+
 Mach dich auf zu einer Entdeckungsreise durch das Salzburger Stadtviertel Maxglan, bei der du vielleicht überraschende Sichtweisen rund um die Themen Verzicht, Nachhaltigkeit und deinen persönlichen Kipppunkt gewinnst. Lass dich auf dieser Entdeckungsreise von kleinen Impulsen auf dir vielleicht noch unbekannte Wege und zu neuen Gedankengängen verführen. 
 
 Du kannst dich einzeln oder in einer kleinen Gruppen zu einem selbst gewählten Zeitpunkt innerhalb der Öffnungszeiten auf den Weg machen. Plane mindestens 1,5 Stunden (noch besser: 2 Stunden) bis zur Schließzeit von Gamers Finest ein. Dort beginnt und endet der Spaziergang – und hier erhältst du auch einen Stadtteilplan, mit dem du die Stationen anhand von QR-Codes entdecken kannst. 
@@ -38,7 +49,7 @@ Die folgenden Gegenstände wirst du auf dem Weg brauchen:
 
 
 
-Was du nicht hast, kannst du bei Gamers Finest ausleihen. Abgesehen vom Geld und dem Smartphone 😉. Solltest du kein Smartphone haben, frage eine:n Freund:in, dich zu begleiten oder verabrede dich auf der [Facebook-Seite](www.facebook.com/profile.php?id=100094948915230) mit jemand Unbekanntem.
+Was du nicht hast, kannst du bei Gamers Finest ausleihen. Abgesehen vom Geld und dem Smartphone 😉. Solltest du kein Smartphone haben, frage eine:n Freund:in, dich zu begleiten oder verabrede dich auf der [Facebook-Seite](https://www.facebook.com/profile.php?id=100094948915230) mit jemand Unbekanntem.
 
 
 Gehe den Weg entlang der Stationen, die du auf der Stadtteilkarte findest, beginnend mit der Nummer 1a direkt vor der Tür von Gamers Finest. An jeder Station angekommen, scannst du den dazugehörigen QR-Code ein oder du klickst dich hier einfach von Station zu Station durch.

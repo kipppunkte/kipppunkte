@@ -3,24 +3,24 @@
 
 !!! abstract "Alle Punktewerte bei den Spielaufträgen stammen aus diesen Quellen:"
 
-    * **Mike Berners-Lee** *„Wie schlimm sind Bananen? Der CO2-Abdruck von allem.“*, 2020
+    * **Mike Berners-Lee** [*„Wie schlimm sind Bananen? Der CO2-Abdruck von allem.“*](https://midas.ch/produkt/wie-schlimm-sind-bananen/), 2020
 
-    * **Thomas Weber** *„Ein guter Tag hat 100 Punkte ... und andere alltagstaugliche Ideen für eine bessere Welt.“*, 2014
+    * **Thomas Weber** [*„Ein guter Tag hat 100 Punkte ... und andere alltagstaugliche Ideen für eine bessere Welt.“*](https://www.residenzverlag.com/buch/ein-guter-tag-hat-100-punkte), 2014
 
 
 
-- [x] Auf dieser [Website](www.eingutertag.org) kannst du deinen persönlichen Punktestand für einen regulären Tag berechnen.
+- [x] Auf dieser [Website](https://www.eingutertag.org) kannst du deinen persönlichen Punktestand für einen regulären Tag berechnen.
 
-- [x] Weitere Möglichkeit den eigenen Fußabdruck zu berechnen: [CO<sub>2</sub> Rechner](www.naturefund.de/wissen/co2_rechner).
+- [x] Weitere Möglichkeit den eigenen Fußabdruck zu berechnen: [CO<sub>2</sub> Rechner](https://www.naturefund.de/wissen/co2_rechner).
 
 !!! quote "Im Spaziergang erwähnte Projekte:"
 
 
-    * [Gerechte Aufteilung der Ackerflächen auf der ganzen Welt](www.2000m2.eu/de)
+    * [Gerechte Aufteilung der Ackerflächen auf der ganzen Welt](https://www.2000m2.eu/de)
 
-    * [Vorarlberger Projekt für Bodenfreiheit](www.bodenfreiheit.at)
+    * [Vorarlberger Projekt für Bodenfreiheit](https://www.bodenfreiheit.at)
 
-    * [Caffè sospeso - Sospeso Bo(h)nuskaffee](www.armutskonferenz.at/news/news-2014/teilen-und-geniessen-der-cafe-sospeso-in-oesterreich.html)
+    * [Caffè sospeso - Sospeso Bo(h)nuskaffee](https://www.armutskonferenz.at/news/news-2014/teilen-und-geniessen-der-cafe-sospeso-in-oesterreich.html)
 
 
 #  Danksagung
