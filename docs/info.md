@@ -33,16 +33,26 @@ Herzlichen Dank an alle Unterstützer:innen:
 
 *Friederike Bernau, Ignaz Blazovich, Christian Conradi, Martina Fladerer, Sylvia Herites, Ursula Honzak-Blazovich, Dr. Karoline Greimel, Erwin Holleis, Inge Holleis, Maria Luise Kaltenegger, Eva Kraxberger, MA MA, Anna Lukasser-Weitlaner, Bogoljub Radivojevic, Waltraud Rettenbacher, Christian Schaidreiter, Mag. Christine Tyma MBA.*
 
+_____
 
-Gefördert durch die Stadt Salzburg, Abteilung Kultur, Bildung und Wissen.
+***Gefördert durch die Stadt Salzburg, Abteilung Kultur, Bildung und Wissen.***
 
-<img src="./assets/stadtlogo_1c.jpg" style="width: 100%">
-<img src="./assets/MAG_16 WS-Logo-4c-RGB-300dpi.png.jpg" style="width: 100%">
+<img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/stadtlogo_1c.jpg" style="height: 50px">
+<img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/MAG_16 WS-Logo-4c-RGB-300dpi.png" style="height: 50px;background:white">
 
 
 Das Projekt wird als Kooperation von Angela Beyerlein mit dem Team von Gamers Finest durchgeführt.
 
-# Impressum
+<br/>
+<br/>
 
+## Impressum
 
-Grafik, Fotos und Text: Angela Beyerlein; Karte: beinhaltet Informationen von OpenStreetMap – openstreetmap.org/copyright – CC-BY-SA 2.0 (verfügbar unter der Open Database Lizens ODbL); Gerichtsstand Salzburg; Seitens des Projekts werden keine personenbezogenen Daten erhoben, eine Garantie bezüglich der Nutzung der Homepage kann nicht gegeben werden;
+<small>
+Grafik, Fotos und Text: Angela Beyerlein; 
+
+Karte: beinhaltet Informationen von OpenStreetMap – openstreetmap.org/copyright – CC-BY-SA 2.0 (verfügbar unter der Open Database Lizens ODbL); 
+
+Gerichtsstand Salzburg; Seitens des Projekts werden keine personenbezogenen Daten erhoben, eine Garantie bezüglich der Nutzung der Homepage kann nicht gegeben werden;
+
+</small>
