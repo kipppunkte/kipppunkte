@@ -19,9 +19,7 @@ theme:
   custom_dir: docs/overrides
   language: de
   logo: assets/Logo KippPunkte.png
-  favicon: assets/logo_only.png
-  # logo: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
-  # favicon: https://www.ews-consulting.com/typo3conf/ext/theme/Resources/Public/Images/Logo_solo.svg
+  favicon: assets/Logo KippPunkte.png
   
   palette:
     - media: "(prefers-color-scheme: light)"
