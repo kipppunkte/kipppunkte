@@ -1,54 +1,47 @@
-<img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/logo_full.png" style="width: 100%">
+<img src="https://github.com/kipppunkte/kipppunkte/raw/gh-pages/assets/logo_full.jpg" style="width: 100%">
 
 
 
-https://www.stadt-salzburg.at/win/out-of-the-box/
+## KippPunkte – oder „Das Zeitalter des Verzichts“
 
-https://www.stadt-salzburg.at/termine/bildung-wissen-und-innovation/out-of-the-box-2023/out-of-the-box-kipppunkte-oder-das-zeitalter-des-verzichts/
+### *Ein interaktiver Spaziergang*
+
+Mach dich auf zu einer Entdeckungsreise durch das Salzburger Stadtviertel Maxglan, bei der du vielleicht überraschende Sichtweisen rund um die Themen Verzicht, Nachhaltigkeit und deinen persönlichen Kipppunkt gewinnst. Lass dich auf dieser Entdeckungsreise von kleinen Impulsen auf dir vielleicht noch unbekannte Wege und zu neuen Gedankengängen verführen. 
+
+Du kannst dich einzeln oder in einer kleinen Gruppen zu einem selbst gewählten Zeitpunkt innerhalb der Öffnungszeiten auf den Weg machen. Plane mindestens 1,5 Stunden (noch besser: 2 Stunden) bis zur Schließzeit von Gamers Finest ein. Dort beginnt und endet der Spaziergang – und hier erhältst du auch einen Stadtteilplan, mit dem du die Stationen anhand von QR-Codes entdecken kannst. 
+
+
+| Zeitraum: | 15.  bis 29. September 2023 |
+| :---------- | :----------------------------------- |
+| Öffnungszeiten: | Mittwoch und Donnerstag, 16:00 bis 20:00 Uhr<br/><br/> Freitag bis Sonntag, 14:00 bis 19:00 Uhr |
+| Start- / Endpunkt: | Gamers Finest, Sebastian-Stöllner-Straße 1, 5020 Salzburg |
+
+
+### Vor dem Start lesen!
+
+Im Folgenden findest du den gleichen Text, wie in der Stadtteilkarte. Also bitte nicht zweimal lesen – aber einmal ist wichtig, damit du dich auskennst.
+
+Du startest bei Gamers Finest. Die Route beginnt und endet hier. Hier holst du dir auch die Stadtteilkarte ab.
+
+**Hast du alles dabei?**
+
+Überprüfe vorher, ob du alle Materialien hast, die du für den Spaziergang brauchst und ob dein Smartphone mit Internet und Kopfhörer bereit ist. 
+Die folgenden Gegenstände wirst du auf dem Weg brauchen: 
+
+
+| :material-check: 1 Smartphone mit Internetzugang und Kopfhörern     | 	 |
+| :---------- | :----------------------------------- |
+| :material-check: 1 Sackerl     | :material-check: 1 Stift |
+| :material-check: 1 Würfel   | :material-check: 1 Streichholzschachtel		 |
+| :material-check: 4 Notizzettel   | :material-check: 3 x ca. 20cm Wolle/Schnur				 |
+| :material-check:  5 Euro	  | :material-check: 1 Trinkflasche mit Wasser				 |
 
 
 
+Was du nicht hast, kannst du bei Gamers Finest ausleihen. Abgesehen vom Geld und dem Smartphone 😉. Solltest du kein Smartphone haben, frage eine:n Freund:in, dich zu begleiten oder verabrede dich auf der [Facebook-Seite](www.facebook.com/profile.php?id=100094948915230) mit jemand Unbekanntem.
 
 
-- [Station 1a: Start](1a.md) (nogame) (audio)(n=1/1)
-- [Station 1b: Mittagessen](1b.md) (game) (pic)(n=2/2)
-- [Station 2: Tischlerei](2.md) (nogame) (audio)(n=1/1)
-- [Station 3: Schmuckatelier](3.md) (game) (pic)(n=2/2)
-- [Station 4: Wilde Insel](4.md) (nogame) (audio)(n=1/1)
-- [Station 5: Ruine](5.md) (nogame) (audio)(n=1/1)
-- [Station 6a: Renovierung](6a.md) (nogame) (audio)(n=1/1)
-- [Station 6b: Bauprojekt](6b.md) (game) (pic)(n=2/2)
-- [Station 7: Turmhaus](7.md) (nogame) (audio)(n=1/1)
-- [Station 8: Traumhaus?](8.md) (nogame) (audio)(n=1/1)
-- [Station 9: KippPunkt](9.md) (nogame) (pic)(n=1/1)
-- [Station 10: Toilette](10.md) (game) (pic)(n=2/2)
-- [Station 11: Bücherzelle](11.md) (game) (pic)(n=2/2)
-- [Station 12: Glan](12.md) (nogame) (audio)(n=1/1)
-- [Station 13a: Bundesstraße](13a.md) (nogame) (audio)(n=1/1)
-- [Station 13b: Autos](13b.md) (game) (pic)(n=2/2)
-- [Station 14: Bauernhof](14.md) (game) (pic)(n=2/2)
-- [Station 15: Der schmale Pfad](15.md) (nogame) (audio)(n=1/1)
-- [Station 16: Flaschenpost](16.md) (nogame) (pic)(n=1/1)
-- [Station 17: Kunst im Garten](17.md) (nogame) (audio)(n=1/1)
-- [Station 18: Mini-Gärten](18.md) (nogame) (audio)(n=1/1)
-- [Station 19: Gemüseanbau](19.md) (game) (pic)(n=2/2)
-- [Station 20: Kunst im Hotel](20.md) (nogame) (audio)(n=1/1)
-- [Station 21: Schneiderei](21.md) (game) (pic)(n=2/2)
-- [Station 22: Bilderrahmen](22.md) (nogame) (pic)(n=1/1)
-- [Station 23: Hotel](23.md) (game) (pic)(n=2/2)
-- [Station 24: Stadtimkerei](24.md) (nogame) (audio)(n=1/1)
-- [Station 25: Bierbrauerei](25.md) (game) (pic)(n=2/2)
-- [Station 26: Gasthof](26.md) (nogame) (pic)(n=1/1)
-- [Station 27: Ökohof](27.md) (game) (pic)(n=2/2)
-- [Station 28: Dein Haus](28.md) (nogame) (audio)(n=1/1)
-- [Station 29: Snack-Automat](29.md) (game) (pic)(n=2/2)
-- [Station 30: Smartfood](30.md) (game) (pic)(n=2/2)
-- [Station 31: Teppichwerkstatt](31.md) (game) (pic)(n=2/2)
-- [Station 32: Lieferung](32.md) (game) (pic)(n=2/2)
-- [Station 33: Fahrrad-Einkaufswagen](33.md) (nogame) (audio)(n=1/1)
-- [Station 34: Fleischhauerei](34.md) (game) (pic)(n=2/2)
-- [Station 35: Kaffee](35.md) (game) (pic)(n=2/2)
-- [Station 36: Schuhservice](36.md) (game) (pic)(n=2/2)
-- [Station 37: Handydoktor](37.md) (game) (pic)(n=2/2)
-- [Station 38: Bäckerei](38.md) (game) (pic)(n=2/2)
-- [Station 39: Gamers Finest](39.md) (nogame) (audio)(n=1/1)
+Gehe den Weg entlang der Stationen, die du auf der Stadtteilkarte findest, beginnend mit der Nummer 1a direkt vor der Tür von Gamers Finest. An jeder Station angekommen, scannst du den dazugehörigen QR-Code ein oder du klickst dich hier einfach von Station zu Station durch.
+
+Jede Station beinhaltet eine Einladung zu Gedankenspielen, spielerischen Interaktionsanregungen oder Aktionen. Meist begleiten dich die Texte und Aufgaben auf dem Weg, während du gemütlich weitergehst.
+Wenn du dich gemütlich fortbewegen möchtest oder dir die Route insgesamt zu lang ist, kannst du die Reise auch auf zwei verschiedene Tage aufteilen. Teil 1 beinhaltet die Stationen 1 bis 23 (sowie 39 falls gewünscht), Teil 2 die Stationen 24 bis 38 (+ 39). Lass auf jeden Fall den Abschluss bei Gamers Finest nicht aus. Dort bist du eingeladen, dir noch bei einem Getränk Interviews anzuhören, anderen beim Spielen zuzusehen oder selbst ein Brettspiel auszuprobieren.

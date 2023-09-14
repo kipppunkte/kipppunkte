@@ -74,9 +74,18 @@ markdown_extensions:
       title: On this page
   - attr_list
   - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true       
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   # - glightbox
@@ -89,7 +98,7 @@ plugins:
         - data-url
 
 nav:
-  - Welcome: index.md
+  - Willkommen: index.md
   # - Station 1: station_01.md
   # - Station 21: station_21.md
   # - Station 35: station_35.md
@@ -136,3 +145,4 @@ nav:
   - "Station 38: Bäckerei": 38.md
   - "Station 39: Gamers Finest": 39.md
   - "Station 40: Interviews": 40.md
+  - "Info": info.md
